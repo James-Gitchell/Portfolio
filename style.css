@@ -1,6 +1,6 @@
 /* NOT SURE IF THIS COUNTS AS A TEMPLATE BUT...
 The followin is to unify styles across all
-browsers   ----as a css reset----*/
+browsers   ----as a css reset----*//*
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -20,12 +20,14 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+}  */  /*
 /* HTML5 display-role reset for older browsers */
+
+/*
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display:inline-block;
-}
+	display:inline-block;*//*
+}/*  
 body {
     width:100%;
 	line-height: 1;
@@ -49,9 +51,10 @@ table {
 *{
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
-}
-/*general styles*/
+    border:1px solid grey;*/
+} 
+/*general styles*/   
+
 html{;
     font-size:62.5%;
 }
@@ -85,5 +88,13 @@ a{
 }
 section{
     padding:4% 0;
+} */
+
+/*                                      start of my css                         */
+
+.wrapper {
+max-width:100%;
+margin:auto;
 }
 
+}
