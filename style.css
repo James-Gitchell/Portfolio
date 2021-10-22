@@ -27,9 +27,7 @@
   body {
       line-height: 1;
   }
-  ol, ul {
-      list-style: none;
-  }
+ 
   blockquote, q {
       quotes: none;
   }
@@ -44,23 +42,61 @@
   }          
             /*start of my css                         */
 
-  h1 {
-      font-size:x-large;
+h1, h2, h3, p, li{
+    color:ghostwhite;
 
-
-            }
+}
+h1 {
+    font-size:x-large;
+    color:darkslategray
+ }
 .wrapper {
 max-width: 100%;
 margin:auto;
+
 }
-.aboutList ul{
+header h2 {
+    padding-left: 8%;
+    color: darkslategray;
+}
+header {
+    background-color: beige;
+}
+body {
+    background-image: url(https://romandecoratingproducts.com/wp-content/uploads/2021/01/hang-wallpaper-over-textured-walls-1536x1023.jpg) ;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.nav {
     display: flex;
-    flex-direction: row;
+    justify-content:space-evenly;
    
 }
+
+
 #profilePic{
     display: flex;
     justify-content: center;
     margin-top:4%;
     margin-bottom: 4%;
+}
+/infoOnMe {
+    display: flex;
+}
+.infoOnMe h2{
+    justify-content: center;
+
+}
+#aboutPictures{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pictures{
+    width:25%;
+}
+li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
