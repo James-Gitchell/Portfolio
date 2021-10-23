@@ -148,28 +148,34 @@ body {
 
 
 
+.picAlign{
+width:100%;
+display:flex;
+justify-content: space around;
+flex-wrap: wrap;
+}
 #aboutPictures{
     width:100%;
-   padding: 10% 10% 10% 10%;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     flex-wrap:wrap;
 }
-.pictures{
+
+
+
+.pictures img, p{
     border:1px solid grey;
-    display: flex;   
-    margin-top: 2%;
-    padding:2%;
-    width:15%;
+    display: flex; 
+    width:25%;
+    justify-content:center;
     
 }
-.pictures p{
-    color: midnightblue;      
+.pictures img p{   
+   justify-content: center;
+    color: midnightblue;
+      
 }
-#pictures{
-    display: flex;
-}
-.picSectionTwo{
-}
+
 li {
     display: flex;
     justify-content: left;
