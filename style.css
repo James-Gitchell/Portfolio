@@ -48,6 +48,21 @@
     box-sizing: border-box;
     max-width: 100%;
 }
+.pageDevider{
+    line-height:1%;
+    background-color: grey;
+    border:2px solid grey;
+    border-radius: 75%;
+   /* margin-left: 15%;
+    margin-right: 15%;*/
+    margin:4% 15% 4% 15%;
+   
+}
+
+.wrapper {
+    width:100%;
+    margin:auto;
+}
 
 h1, h2, h3, p, li{
     color:rgb(155, 155, 192);
@@ -57,19 +72,11 @@ h1 {
     font-size:x-large;
     color:darkslategray
  }
-.wrapper {
-width:100%;
-margin:auto;
-}
 
 h3 {
 display: flex;
 justify-content: center;
 }
-
-
-
-
 
 header h2 {
     padding-left: 8%;
@@ -150,9 +157,7 @@ li {
 
 .pictures {
     width:100%;
-    justify-content:center;
-    padding:05% 05%;
-    margin:10%;
+    
     
 }
 .pictures img, p{
@@ -171,10 +176,14 @@ li {
 #picParent{
     display: flex;
     width:100%;
+    padding-left: 15%;
+    padding-right: 15%;
 
 }
 #picParent2{
     display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
 
 }
 
