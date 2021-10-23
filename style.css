@@ -41,9 +41,6 @@
       border-spacing: 0;
   }   
   
- 
-
-
 
 
 
@@ -127,14 +124,6 @@ body {
 
   /* text under main picture */
 
-li {
-    display: list-item;
-    list-style-position: inside;
-  }
-ol {
-    display: list-item;
-    list-style-position: inside;
-  }
 .infoOnMe h2{
     display: flex;
     justify-content: center;
@@ -152,6 +141,9 @@ li {
     justify-content: left;
     padding-left: 40%;
     width: 100%;
+    display: list-item;
+    list-style-position: inside;
+}
 }
 #beExcited{
     font-size:xx-large;
@@ -199,4 +191,11 @@ li {
 }
 
 /*css for contact info*/
+
+
+  /*css for the footer*/
+
+  
+
+
 
