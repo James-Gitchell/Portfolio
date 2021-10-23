@@ -183,7 +183,11 @@ li {
 
 
   /*css for the footer*/
-
+.footerBackground img{
+position:absolute;
+background-repeat: no-repeat;
+width: 100%;
+}
   
 
 
