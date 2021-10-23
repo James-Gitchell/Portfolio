@@ -94,9 +94,23 @@ body {
 
 .nav {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
    
 }
+.nav a:hover {
+    background-color: yellow;
+}
+.nav a:visited{
+    color:black;
+}
+.nav a:active{
+    color:red;
+}
+
+
+
+
+
 
 /* below the header */
 
@@ -111,41 +125,53 @@ body {
 #pictureOfMe{
       border-radius: 50%;
   }
-
-
-
-
-
-
+#pictureOfMe:hover{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  #pictureOfMe:hover, #pictureOfMe:focus, #pictureOfMe:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
   /* text under main picture */
 
 .infoOnMe h2{
     display: flex;
     justify-content: center;
-    align-self: center;
     color: rgb(251, 132, 255);
     font-size:xx-large ;
 }
 .infoOnMe h3{
     padding-top: 1%;
     padding-bottom: 1%;
+
 }
-li {
-   
+.listCenter{
     display: flex;
-    justify-content: left;
-    padding-left: 40%;
-    width: 100%;
-    display: list-item;
-    list-style-position: inside;
+    justify-content:center;
 }
+.listCenter ul li { 
+    text-align: justify;
+    
 }
+
+
 #beExcited{
     font-size:xx-large;
     color:rgb(161, 161, 238);
     padding-bottom: 4%;
     padding-top: 5%;
 }
+
+
+
 
 
 
@@ -159,6 +185,22 @@ li {
     width:100%;
     
     
+}
+.pictures:hover{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .pictures:hover, .pictures:focus, .pictures:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
 }
 .pictures img, p{
      display: flex; 
@@ -187,8 +229,25 @@ li {
 
 }
 
+
+
+
+
+
+
+
+
 /*css for contact info*/
 
+
+
+#contactInfo li {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    display: list-item;
+    list-style-position: inside;
+}
 
   /*css for the footer*/
 .footerBackground img{
