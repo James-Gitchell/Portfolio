@@ -5,7 +5,7 @@
   del, dfn, em, img, ins, kbd, q, s, samp,
   small, strike, strong, sub, sup, tt, var,
   b, u, i, center,
-  dl, dt, dd, ol, ul, li,
+  dl, dt, dd, ol,
   fieldset, form, label, legend,
   table, caption, tbody, tfoot, thead, tr, th, td,
   article, aside, canvas, details, embed, 
@@ -127,7 +127,14 @@ body {
 
   /* text under main picture */
 
-
+li {
+    display: list-item;
+    list-style-position: inside;
+  }
+ol {
+    display: list-item;
+    list-style-position: inside;
+  }
 .infoOnMe h2{
     display: flex;
     justify-content: center;
@@ -140,44 +147,39 @@ body {
     padding-bottom: 1%;
 }
 li {
+   
     display: flex;
     justify-content: left;
     padding-left: 40%;
     width: 100%;
 }
-/*#beExcited{
-    font-size:x-large;
-    color:bisque;
+#beExcited{
+    font-size:xx-large;
+    color:rgb(161, 161, 238);
     padding-bottom: 4%;
-}*/
-
-
-
-
-
-.aboutPictures {
-   width:100%;
-   
-   /* border:5px solid red;*/
+    padding-top: 5%;
 }
 
 
 
+/*css for pictures below main*/
+
+.aboutPictures{
+   width:100%;
+  }
+
 .pictures {
-  /*  border:1px solid grey;; */
     width:100%;
     justify-content:center;
-    padding:10% 10%;
+    padding:05% 05%;
     margin:10%;
-
     
 }
 .pictures img, p{
-   /* border:1px solid grey;*/
-    display: flex; 
+     display: flex; 
     width:25%;
     justify-content:center;
-   padding:10% 10% 10% 10%;
+    padding:10% 10% 10% 10%;
     margin:10%;
 
 }
@@ -189,11 +191,12 @@ li {
 #picParent{
     display: flex;
     width:100%;
+
 }
 #picParent2{
     display: flex;
 
 }
-#imageOne, #imageTwo, #imageThree, #imageFour {
-    width:100%;
-}
+
+/*css for contact info*/
+
