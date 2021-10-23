@@ -1,4 +1,4 @@
-            
+           
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -39,8 +39,30 @@
   table {
       border-collapse: collapse;
       border-spacing: 0;
-  }          
+  }   
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             /*start of my css                         */
+
+/* *{
+    box-sizing: border-box;
+    max-width: 100%;
+    border:1px solid grey;
+}*/
 
 h1, h2, h3, p, li{
     color:rgb(155, 155, 192);
@@ -59,6 +81,11 @@ h3 {
 display: flex;
 justify-content: center;
 }
+
+
+
+
+
 header h2 {
     padding-left: 8%;
     color: darkslategray;
@@ -79,6 +106,9 @@ body {
    
 }
 
+/* below the header */
+
+
 
 #profilePic{
     display: flex;
@@ -86,9 +116,17 @@ body {
     margin-top:4%;
     margin-bottom: 4%;
   }
-  #pictureOfMe{
+#pictureOfMe{
       border-radius: 50%;
   }
+
+
+
+
+
+
+  /* text under main picture */
+
 
 .infoOnMe h2{
     display: flex;
@@ -100,21 +138,41 @@ body {
 .infoOnMe h3{
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-left: 10%;
 }
-#beExcited{
+/*#beExcited{
     font-size:x-large;
     color:bisque;
-}
+    padding-bottom: 4%;
+}*/
+
+
+
+
 #aboutPictures{
-    display: flex;
-    flex-wrap: wrap;
+    width:100%;
+   padding: 10% 10% 10% 10%;
+    flex-direction:row;
+    flex-wrap:wrap;
 }
 .pictures{
-    width:25%;
+    border:1px solid grey;
+    display: flex;   
+    margin-top: 2%;
+    padding:2%;
+    width:15%;
+    
+}
+.pictures p{
+    color: midnightblue;      
+}
+#pictures{
+    display: flex;
+}
+.picSectionTwo{
 }
 li {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    padding-left: 40%;
     width: 100%;
 }
