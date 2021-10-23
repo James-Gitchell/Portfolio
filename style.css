@@ -44,11 +44,10 @@
 
             /*start of my css                         */
 
-/* *{
+ *{
     box-sizing: border-box;
     max-width: 100%;
-    border:1px solid grey;
-}*/
+}
 
 h1, h2, h3, p, li{
     color:rgb(155, 155, 192);
@@ -158,7 +157,7 @@ li {
 }
 .pictures img, p{
      display: flex; 
-    width:25%;
+    width:100%;
     justify-content:center;
     padding:10% 10% 10% 10%;
     margin:10%;
