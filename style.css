@@ -91,6 +91,9 @@ body {
     background-repeat: no-repeat;
     width: 100%;
 }
+.bulletColors{
+    color: rgb(63, 134, 118);
+}
 
 .nav {
     display: flex;
@@ -158,28 +161,49 @@ body {
     justify-content:center;
 }
 .listCenter ul li { 
-    text-align: justify;
+   text-align: justify;
+   tex;
     
 }
 
 
+
+
+/*about Section*/
+
+#aboutMeBullets {
+    display: flex;
+ justify-content: center;
+  
+}
+.adventureText{
+    font-size: larger;
+    
+}
+.linkBox{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    
+  
+}
+
+
+
+
+/*css for pictures below About*/
+
+.aboutPictures{
+   width:100%;
+}
 #beExcited{
+    display:flex;
+   justify-content:  center;
     font-size:xx-large;
     color:rgb(161, 161, 238);
     padding-bottom: 4%;
     padding-top: 5%;
 }
-
-
-
-
-
-
-/*css for pictures below main*/
-
-.aboutPictures{
-   width:100%;
-  }
 
 .pictures {
     width:100%;
@@ -197,13 +221,13 @@ body {
     -webkit-transition-property: transform;
     transition-property: transform;
   }
-  .pictures:hover, .pictures:focus, .pictures:active {
+.pictures:hover, .pictures:focus, .pictures:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 
 }
 .pictures img, p{
-     display: flex; 
+    display: flex; 
     width:100%;
     justify-content:center;
     padding:10% 10% 10% 10%;
@@ -239,7 +263,11 @@ body {
 
 /*css for contact info*/
 
-
+#contactInfo h2{
+    font-size:x-large;
+    padding:4% 0% 3% 0%;
+    text-align: center;
+}
 
 #contactInfo li {
     display: flex;
